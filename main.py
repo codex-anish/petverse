@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routers import triage, adoption, medical, lostfound, reminders, petbot, diet
+from app.routers import triage, adoption, reminders, petbot, diet
 
 app = FastAPI(title="Pawzio AI Backend", version="1.0.0")
 
