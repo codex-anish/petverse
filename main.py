@@ -14,8 +14,6 @@ app.add_middleware(
 
 app.include_router(triage.router)
 app.include_router(adoption.router)
-app.include_router(medical.router)
-app.include_router(lostfound.router)
 app.include_router(reminders.router)
 app.include_router(petbot.router)
 app.include_router(diet.router)
