@@ -2,7 +2,6 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
     gemini_api_key: str = ""
-    app_api_key: str    = "pawzio-secret-123"
 
     model_config = SettingsConfigDict(
         env_file=".env",
